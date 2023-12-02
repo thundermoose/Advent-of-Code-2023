@@ -3,9 +3,9 @@ use std::io::BufReader;
 use std::io::BufRead;
 use regex::Regex;
 
-const EXAMPLE_DATA_DAY1_PART1: &str = "example_data_day1_part1.txt";
-const EXAMPLE_DATA_DAY1_PART2: &str = "example_data_day1_part2.txt";
-const INPUT_DAY1_PART: &str = "input_day1_part1.txt";
+const EXAMPLE_DATA_DAY1_PART1: &str = "problem_data/day1/example_part1.txt";
+const EXAMPLE_DATA_DAY1_PART2: &str = "problem_data/day1/example_part2.txt";
+const INPUT_DAY1_PART: &str = 		  "problem_data/day1/input.txt";
 
 const MATCH_DIGIT: &str = "(\\d)|(one)|(two)|(three)|(four)|(five)|(six)|(seven)|(eight)|(nine)|(zero)";
 const MATCH_TIGID: &str = "(\\d)|(eno)|(owt)|(eerht)|(ruof)|(evif)|(xis)|(neves)|(thgie)|(enin)|(orez)";
