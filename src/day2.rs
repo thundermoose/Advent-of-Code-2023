@@ -91,6 +91,7 @@ impl Game {
 }
 
 pub fn run_day2() {
+	println!("Day 2:");
 	part1(EXAMPLE_DATA_DAY2);
 	part1(INPUT_DAY2);
 	part2(EXAMPLE_DATA_DAY2);
